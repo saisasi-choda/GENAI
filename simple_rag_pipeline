@@ -19,7 +19,7 @@ os.environ["GRPC_TRACE"] = "" # Disables gRPC tracing
 
 
 
-pc = Pinecone(api_key='pcsk_445wgD_SPgH77uNYk6DbXBuHHCNWNpCrioCsnVJQtMS5UTeaUkr361fVrmfMNAhYs6GUCf')
+pc = Pinecone(api_key='vector_db_api_key')
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 def document_loader(file_path,name):
